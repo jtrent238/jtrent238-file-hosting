@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<project name="C:\Users\Admin\git\jtrent238-file-hosting\jtrent238 File Hosting.clpprj">
+ <settings>
+  <PM_URL><![CDATA[http://stfh.alwaysdata.net/]]></PM_URL>
+  <PM_HOME_URL><![CDATA[http://stfh.alwaysdata.net/]]></PM_HOME_URL>
+  <PM_LIBS><![CDATA[]]></PM_LIBS>
+  <PM_FTP_CONNECTION><![CDATA[ftp-stfh.alwaysdata.net]]></PM_FTP_CONNECTION>
+  <PM_FTP_DIR><![CDATA[/www]]></PM_FTP_DIR>
+  <PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:1]]></PM_FTP_UPLOAD_ON_SAVE>
+ </settings>
+ <removed value=";"/>
+ <added value=""/>
+ <lastopfiles>
+  <file name="C:\Users\Admin\git\jtrent238-file-hosting\index.php"/>
+  <file name="C:\Users\Admin\git\jtrent238-file-hosting\assets\css\main.css"/>
+  <lastactivefile name=""/>
+ </lastopfiles>
+ <errors version="1.3"/>
+ <cakedata/>
+ <dplmenupath/>
+ <laravael/>
+ <smartyassings/>
+ <twigtemplate/>
+ <yiidata/>
+ <todoblock/>
+ <dbgurls/>
+ <filescache>
+  <file name="C:\Users\Admin\git\jtrent238-file-hosting\assets\css\main.css" crc="1574099673620"/>
+  <file name="C:\Users\Admin\git\jtrent238-file-hosting\upload.php" crc="1573744907825"/>
+  <file name="C:\Users\Admin\git\jtrent238-file-hosting\index.php" crc="1574100741994"/>
+ </filescache>
+</project>
