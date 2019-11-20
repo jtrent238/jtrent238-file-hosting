@@ -3,6 +3,13 @@ body {
 }
 
 img.img_logo {
-	position: absolute;
+	display: inline;
 	size: 50%;
+	margin: auto;
+}
+
+div.upload_box {
+	width: 25%;
+	height: auto;
+	margin: auto;
 }

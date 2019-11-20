@@ -13,6 +13,8 @@
  <lastopfiles>
   <file name="C:\Users\Admin\git\jtrent238-file-hosting\index.php"/>
   <file name="C:\Users\Admin\git\jtrent238-file-hosting\assets\css\main.css"/>
+  <file name="C:\Users\Admin\git\jtrent238-file-hosting\upload.php"/>
+  <file name="C:\Users\Admin\git\jtrent238-file-hosting\assets\css\upload.css"/>
   <lastactivefile name=""/>
  </lastopfiles>
  <errors version="1.3"/>
@@ -25,8 +27,9 @@
  <todoblock/>
  <dbgurls/>
  <filescache>
-  <file name="C:\Users\Admin\git\jtrent238-file-hosting\assets\css\main.css" crc="1574099673620"/>
-  <file name="C:\Users\Admin\git\jtrent238-file-hosting\upload.php" crc="1573744907825"/>
-  <file name="C:\Users\Admin\git\jtrent238-file-hosting\index.php" crc="1574100741994"/>
+  <file name="C:\Users\Admin\git\jtrent238-file-hosting\assets\css\upload.css" crc="1574257932762"/>
+  <file name="C:\Users\Admin\git\jtrent238-file-hosting\assets\css\main.css" crc="1574259341660"/>
+  <file name="C:\Users\Admin\git\jtrent238-file-hosting\upload.php" crc="1574258931011"/>
+  <file name="C:\Users\Admin\git\jtrent238-file-hosting\index.php" crc="1574259386037"/>
  </filescache>
 </project>
