@@ -6,10 +6,55 @@
 		<link rel="stylesheet" href="assets/css/main.css">
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
+		<script>
+			function displayLogin(myArg) {
+				debug = true; // Toggle Debugging
+				
+				var modelID;
+				var elementID;
+				var ClassName;
+				
+				// Get the model
+				var model = document.getElementById(modelID)
+				
+				// Get the button that opens the model
+				var btn = document.getElementById(elementID);
+				var link = document.getElementById(elementID);
+				
+				// Get the <span> element that closes te model
+				var span = document.getElementById(ClassName);
+				
+				if (myArg == 'login') {
+					modelID = "loginContainer_login";
+					elementID = "loginContainer_login_open";
+					ClassName = "";
+					
+					//debug
+					
+					if (debug == true) {
+						console.log(myArg);
+						console.log(modelID);
+						console.log(elementID);
+						console.log(ClassName);
+					}
+					
+					// When the user clicks the button, open te modal
+					function displayMessage() {
+						document.getElementById("loginContainer_login").style.display = "block";
+						
+						if (debug == true) {
+							console.log("opened login form");
+						}
+					}
+					displayMessage();
+				}
+			}
+		</script>
 	</head>
 	<body>
-		<img class="img_logo w3-padding-16 w3-margin w3-display-topmiddle" src="./assets/img/logo.png" alt="logo"/>
-		</br></br>
+		<?php include 'debug.php';?> <!-- Adds debug functions -->
+		<?php include 'config.php';?> <!-- Adds config -->
+		<?php include 'menu.php'; ?> <!-- Adds a top navbar -->
 		<div class="w3-container ">
 			<div class="w3-container">
 				<div class="w3-container">
@@ -46,11 +91,15 @@
 
 									//$num_rows = mysql_num_rows($sql);
 									if ($conn->query($sql) === TRUE) {
-										debug_to_console($sql);
-										//debug_to_console("New record created successfully");
+										if ($debug == true) {
+											debug_to_console($sql);
+											//debug_to_console("New record created successfully");
+										}
 										
 									} else {
-										debug_to_console("Error: " . $sql . "<br>" . $conn->error);
+										if ($debug == true) {
+											debug_to_console("Error: " . $sql . "<br>" . $conn->error);
+										}
 									}
 									
 									if ($result->num_rows > 0) {
@@ -70,33 +119,45 @@
 										echo "Total files uploaded: " .$fTotal .".";
 										echo "</center>";
 										echo "</br>";
-										
-									function debug_to_console($data)
-									{
-										$output = $data;
-										if (is_array($output))
-											$output = implode(',', $output);
-
-										echo "<script>console.log(`Debug Objects: " . $output . " `);</script>";
-									}
 								?>
 							</div>
 						</div>
 					</div>
+					<!-- Login Form Start -->
+					<div class="w2-container w3-animate-opacity">
+						<div id="loginContainer_login" class="w3-modal w3-animate-opacity">
+							<div class="w3-container w3-display-middle login_box">
+								<div class="w3-card-4 w3-indigo login_box">
+									<div class="w3-container w3-blue">
+										<h2>Login</h2>
+									</div>
+									</br>
+									<form class="w3-container" method="post" action="login.php">
+										<label class="w3-text-white">
+											<b>Username:</b></label>
+										<input class="w3-input" type="text" name="username" id="username"/>
+										</br>
+										<label class="w3-text-white">
+											<b>Password:</b></label>
+										<input  class="w3-input" type="password" name="password" id="password"/>
+										</br>
+										<button class="w3-btn w3-blue w3-text-white">
+											<b>Login</b></button>
+
+									</form>
+									</br>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Login Form End -->
 				</div>
 			</div>
 		</div>
 		</br>
 		</br>
 		<footer>
-			<div class="w3-container">
-				<div class="w3-container w3-display-bottommiddle">
-					<p class="w3-text">
-						Site made by
-						<a href="https://github.com/jtrent238">jtrent238</a>
-					</p>
-				</div>
-			</div>
+			<?php include 'footer.php'; ?> <!-- Adds a footer -->
 		</footer>
 	</body>
 </html>

@@ -1,5 +1,7 @@
 body {
-	background-image: url("../img/background.jpg");
+	background-image: url("../img/background.jpg"); /* The image used for background */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* resize the background image to cover te entire container */
 }
 
 img.img_logo {
@@ -10,6 +12,12 @@ img.img_logo {
 
 div.upload_box {
 	width: 25%;
+	height: auto;
+	margin: auto;
+}
+
+div.login_box {
+	width: 50%;
 	height: auto;
 	margin: auto;
 }

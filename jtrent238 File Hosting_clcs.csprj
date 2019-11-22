@@ -1,6 +1,8 @@
 
 <codestructure version="1.5">
 <phptree>
+<treenode node="debug_to_console;PHP:Function Name;C:\Users\Admin\git\jtrent238-file-hosting\upload.php;f10;195;11;202;;;;vpos;;v;;a;;r;;d10,196;;b0,0;;m0;;edata;;p">
+</treenode>
 </phptree>
 <jstree>
 <treenode node="goBack;JS:Function Name;C:\Users\Admin\git\jtrent238-file-hosting\upload.php;f0;17;3;20;;;;vpos;;v;;a;;r;;d2,18;;b0,0;;m0;;e">

@@ -20,10 +20,58 @@
 			window.history.back();
 		}
 		</script>
+		<script>
+		function displayLogin(myArg)
+		{
+			debug = true; // Toggle Debugging
+
+			var modelID;
+			var elementID;
+			var ClassName;
+
+			// Get the model
+			var model = document.getElementById(modelID)
+
+			// Get the button that opens the model
+			var btn = document.getElementById(elementID);
+			var link = document.getElementById(elementID);
+
+			// Get the <span> element that closes te model
+			var span = document.getElementById(ClassName);
+
+			if (myArg == 'login') {
+				modelID = "loginContainer_login";
+				elementID = "loginContainer_login_open";
+				ClassName = "";
+
+				//debug
+
+				if (debug == true) {
+					console.log(myArg);
+					console.log(modelID);
+					console.log(elementID);
+					console.log(ClassName);
+				}
+
+				// When the user clicks the button, open te modal
+				function displayMessage()
+				{
+					document.getElementById("loginContainer_login").style.display = "block";
+
+					if (debug == true) {
+						console.log("opened login form");
+					}
+				}
+				displayMessage();
+			}
+		}
+		</script>
 	</head>
 	<body>
+		<?php include 'debug.php'; ?> <!-- Adds debug functions -->
+		<?php include 'config.php'; ?> <!-- Adds config -->
+		<?php include 'menu.php'; ?> <!-- Adds a top navbar -->
 		<div class="w3-container-display">
-			<img class="img_logo w3-padding-16 w3-margin w3-display-topmiddle" src="./assets/img/logo.png" alt="logo"/>
 			</br></br>
 			<div class="w3-container ">
 				<div class="w3-container">
@@ -134,14 +182,20 @@
 												if (!$conn) {
 													die("Connection failed: " . mysqli_connect_error());
 												}
-												debug_to_console("Connected successfully");
+												if ($debug == true) {
+													debug_to_console("Connected successfully");
+												}
 
 												// Create database
 												$sql = "CREATE DATABASE " .$dbname ." IF NOT EXISTS";
 												if (mysqli_query($conn, $sql)) {
-													debug_to_console("Database created successfully");
+													if ($debug == true) {
+														debug_to_console("Database created successfully");
+													}
 												} else {
-													debug_to_console("Error creating database: " . mysqli_error($conn));
+													if ($debug == true) {
+														debug_to_console("Error creating database: " . mysqli_error($conn));
+													}
 												}
 
 												$conn->close();
@@ -164,9 +218,13 @@
 												);";
 
 												if ($conn->query($sql) === TRUE) {
-													debug_to_console("Table " .$tablename ." created successfully");
+													if ($debug == true) {
+														debug_to_console("Table " .$tablename ." created successfully");
+													}
 												} else {
-													debug_to_console("Error creating table: " . $conn->error);
+													if ($debug == true) {
+														debug_to_console("Error creating table: " . $conn->error);
+													}
 												}
 												$conn->close();
 
@@ -182,9 +240,13 @@
 												VALUES ('" .$fname ."','" .$fType ."','" .$fSize ."');";
 
 												if ($conn->query($sql) === TRUE) {
-													debug_to_console("New record created successfully");
+													if ($debug == true) {
+														debug_to_console("New record created successfully");
+													}
 												} else {
-													debug_to_console("Error: " . $sql . "<br>" . $conn->error);
+													if ($debug == true) {
+														debug_to_console("Error: " . $sql . "<br>" . $conn->error);
+													}
 												}
 
 												$conn->close();
@@ -192,15 +254,6 @@
 											} else {
 												echo "Sorry, there was an error uploading your file.";
 											}
-										}
-										
-										function debug_to_console($data)
-										{
-											$output = $data;
-											if (is_array($output))
-												$output = implode(',', $output);
-
-											echo "<script>console.log(`Debug Objects: " . $output . " `);</script>";
 										}
 									?>
 									</br></br>
