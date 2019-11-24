@@ -6,6 +6,7 @@
 		<link rel="stylesheet" href="assets/css/main.css">
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
+		<script data-ad-client="ca-pub-8574266263882010" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 		<script>
 			function displayLogin(myArg) {
 				debug = true; // Toggle Debugging
