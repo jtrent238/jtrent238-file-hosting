@@ -69,6 +69,10 @@
 									<label>Select image to upload:</label>
 
 									<input class="inputUpload w3-input w3-border" type="file" name="fileToUpload" id="fileToUpload">
+									</<br></br>
+									<div class="w3-container uploadAdvanced">
+										<label>Email: </label><input class="w3-input" name="email" id="email" type="text"/>
+									</div>
 									</br>
 									<input class="inputSubmit w3-input w3-border w3-button w3-blue" type="submit" value="Upload Image" name="submit">
 								</form>
@@ -113,6 +117,7 @@
 									}
 									
 									$fCount = shell_exec('find uploads -type f | wc -l');
+									
 									
 										echo "<center>";
 										echo "Currently hosting " .$fCount ." files.";

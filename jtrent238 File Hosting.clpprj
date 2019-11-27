@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<project name="C:\Users\Admin\git\jtrent238-file-hosting\jtrent238 File Hosting.clpprj">
+<project name="C:\Users\jtren\git\jtrent238-file-hosting\jtrent238 File Hosting.clpprj">
  <settings>
   <PM_URL><![CDATA[http://stfh.alwaysdata.net/]]></PM_URL>
   <PM_HOME_URL><![CDATA[http://stfh.alwaysdata.net/]]></PM_HOME_URL>
@@ -11,13 +11,16 @@
  <removed value=";C:\Users\Admin\git\jtrent238-file-hosting\phpinfo.php;"/>
  <added value=""/>
  <lastopfiles>
-  <file name="C:\Users\Admin\git\jtrent238-file-hosting\index.php"/>
-  <file name="C:\Users\Admin\git\jtrent238-file-hosting\assets\css\main.css"/>
-  <file name="C:\Users\Admin\git\jtrent238-file-hosting\upload.php"/>
-  <file name="C:\Users\Admin\git\jtrent238-file-hosting\assets\css\upload.css"/>
+  <file name="C:\Users\jtren\git\jtrent238-file-hosting\jtrent238 File Hosting.clpprj"/>
+  <file name="C:\Users\jtren\git\jtrent238-file-hosting\index.php"/>
   <lastactivefile name=""/>
  </lastopfiles>
- <errors version="1.3"/>
+ <errors version="1.3">
+  <errfile name="C:\Users\jtren\git\jtrent238-file-hosting\index.php">
+   <error val="14;8;50;8;2002;1;"/>
+   <error val="9;8;14;8;2002;1;"/>
+  </errfile>
+ </errors>
  <cakedata/>
  <dplmenupath/>
  <laravael/>
@@ -27,9 +30,17 @@
  <todoblock/>
  <dbgurls/>
  <filescache>
-  <file name="C:\Users\Admin\git\jtrent238-file-hosting\assets\css\upload.css" crc="1574262509442"/>
-  <file name="C:\Users\Admin\git\jtrent238-file-hosting\assets\css\main.css" crc="1574276686639"/>
-  <file name="C:\Users\Admin\git\jtrent238-file-hosting\upload.php" crc="1574275917275"/>
-  <file name="C:\Users\Admin\git\jtrent238-file-hosting\index.php" crc="1574276767411"/>
+  <file crc="1574289355711" name="C:\Users\jtren\git\jtrent238-file-hosting\assets\css\upload.css"/>
+  <file crc="1574564934907" name="C:\Users\jtren\git\jtrent238-file-hosting\assets\css\main.css"/>
+  <file crc="1574564935142" name="C:\Users\jtren\git\jtrent238-file-hosting\upload.php"/>
+  <file crc="1574564935140" name="C:\Users\jtren\git\jtrent238-file-hosting\sidebar.php"/>
+  <file crc="1574564935138" name="C:\Users\jtren\git\jtrent238-file-hosting\menu.php"/>
+  <file crc="1574564935108" name="C:\Users\jtren\git\jtrent238-file-hosting\login.php"/>
+  <file crc="1574564935021" name="C:\Users\jtren\git\jtrent238-file-hosting\index.php"/>
+  <file crc="1574564935019" name="C:\Users\jtren\git\jtrent238-file-hosting\header.php"/>
+  <file crc="1574564934947" name="C:\Users\jtren\git\jtrent238-file-hosting\footer.php"/>
+  <file crc="1574564934945" name="C:\Users\jtren\git\jtrent238-file-hosting\debug.php"/>
+  <file crc="1574290227580" name="C:\Users\jtren\git\jtrent238-file-hosting\database.sql"/>
+  <file crc="1574564934943" name="C:\Users\jtren\git\jtrent238-file-hosting\config.php"/>
  </filescache>
 </project>

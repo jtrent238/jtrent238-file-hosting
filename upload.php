@@ -168,6 +168,26 @@
 												echo "</br></br>";
 												echo '<a href="http://'. $_SERVER['HTTP_HOST']. "/uploads/". basename( $_FILES["fileToUpload"]["name"]). '"><img class="uploaded_image" src="http://'. $_SERVER['HTTP_HOST']. "/uploads/". basename( $_FILES["fileToUpload"]["name"]). '"</img></a>';
 												
+												if ($_POST['email'] != null) {
+
+													// Always set content-type when sending HTML email
+													$headers = "MIME-Version: 1.0" . "\r\n";
+													$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+
+													// More headers
+													$headers .= 'From: <webmaster@example.com>' . "\r\n";
+													$headers .= 'Cc: myboss@example.com' . "\r\n"
+													;
+													// the message
+													$msg = 'Here is the file that you uploaded: <a href="http://' .$_SERVER['HTTP_HOST'] .'/' .$fName .'/">http://' .$_SERVER['HTTP_HOST'] .'/' .$fName .'</a>';
+
+													// use wordwrap() if lines are longer than 70 characters
+													$msg = wordwrap($msg,70);
+
+													// send email
+													mail($_POST['email'],"File: " .$fName, $msg, $headers, $target_file);
+												}
+												
 												// Database stuff
 												$servername = "mysql-stfh.alwaysdata.net";
 												$username = "stfh_images";
