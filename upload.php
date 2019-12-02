@@ -5,6 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="assets/css/main.css">
 		<link rel="stylesheet" href="assets/css/upload.css">
+		<?php include_once('theme_styles.php'); ?>
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
 		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -68,17 +69,18 @@
 		</script>
 	</head>
 	<body>
-		<?php include 'debug.php'; ?> <!-- Adds debug functions -->
-		<?php include 'config.php'; ?> <!-- Adds config -->
-		<?php include 'menu.php'; ?> <!-- Adds a top navbar -->
+		<?php include_once 'debug.php'; ?> <!-- Adds debug functions -->
+		<?php include_once 'config.php'; ?> <!-- Adds config -->
+		<?php include_once 'menu.php'; ?> <!-- Adds a top navbar -->
+		<?php include_once 'popup_login.php'; ?>
 		<div class="w3-container-display">
 			</br></br>
 			<div class="w3-container ">
 				<div class="w3-container">
 					<div class="w3-container">
 						<div class="w3-container w3-display-middle upload_box">
-							<div class="w3-card w3-indigo">
-								<div class="w3-containter w3-blue">
+							<div class="w3-card w3-indigo" id="uploadCard">
+								<div class="w3-containter w3-blue" id="uploadHeader">
 									<h2 class="w3-xxlarge w3-center">Upload a file!</h2>
 								</div>
 								<div class="w3-container">
@@ -234,6 +236,7 @@
 												fileType VARCHAR(255) NOT NULL,
 												fileSize INT NOT NULL,
 												fileUploadDate TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+												isDeleted ENUM('true', 'false') NOT NULL,
 												PRIMARY KEY (fileId)
 												);";
 
@@ -255,9 +258,9 @@
 													die("Connection failed: " . $conn->connect_error);
 												}
 
-												$sql = "INSERT INTO " .$tablename ." (fileName, fileType, fileSize)
+												$sql = "INSERT INTO " .$tablename ." (fileName, fileType, fileSize, isDeleted)
 
-												VALUES ('" .$fname ."','" .$fType ."','" .$fSize ."');";
+												VALUES ('" .$fname ."','" .$fType ."','" .$fSize ."', 'false');";
 
 												if ($conn->query($sql) === TRUE) {
 													if ($debug == true) {
@@ -278,7 +281,7 @@
 									?>
 									</br></br>
 									<div class="w3-container w3-center">
-										<button class="w3-button w3-blue" onclick="goBack()">Go Back</button>
+										<button class="w3-button w3-blue" id="buttonBack" onclick="goBack()">Go Back</button>
 									</div>
 									</br>
 								</div>
@@ -289,14 +292,7 @@
 			</div>
 		</div>
 		<footer class="w3-container">
-			<div class="w3-container">
-				<div class="w3-container w3-display-bottommiddle w3-margintop">
-					<p class="w3-text">
-						Site made by
-						<a href="https://github.com/jtrent238">jtrent238</a>
-					</p>
-				</div>
-			</div>
+			<?php include 'footer.php'; ?> <!-- Adds a footer -->
 		</footer>
 	</body>
 </html>

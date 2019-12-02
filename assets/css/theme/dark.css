@@ -1,0 +1,5 @@
+body {
+	background-image: url("../../img/background_dark.jpg"); /* The image used for background */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* resize the background image to cover te entire container */
+}
