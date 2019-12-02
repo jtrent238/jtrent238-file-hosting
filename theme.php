@@ -1,7 +1,6 @@
 <?php
 	include_once('config.php');
 	
-	
 	if ($theme == 'default') {
 		
 		echo('<script>document.getElementById("navbar").classList.remove("w3-blue");</script>');

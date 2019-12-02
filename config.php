@@ -1,6 +1,3 @@
-<?php 
-	include_once('theme.php');
-?>
 
 <?php
 	$theme = 'dark'; // Sets the websites theme valid themes are "default, dark, beach"

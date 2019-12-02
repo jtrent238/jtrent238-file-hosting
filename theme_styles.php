@@ -1,5 +1,5 @@
 <?php
-	include_once('theme.php');
+	include_once('config.php');
 	switch ($theme) {
 		case 'default':
 			echo('<link rel="stylesheet" href="assets/css/theme/default.css">');
