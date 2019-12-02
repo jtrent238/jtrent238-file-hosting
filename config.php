@@ -3,7 +3,7 @@
 ?>
 
 <?php
-	$theme = 'beach'; // Sets the websites theme valid themes are "default, dark, beach"
+	$theme = 'dark'; // Sets the websites theme valid themes are "default, dark, beach"
 	
 	$cfg_debug = false; // Enable Debugging ** Warning private data dumped to console ***
 
