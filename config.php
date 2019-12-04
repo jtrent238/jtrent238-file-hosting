@@ -8,6 +8,7 @@
 	$adminPass = "password";
 	
 	$enablePOD = true; // Enable Password of the day
+	$podPass = 'P@ssw0rd!';
 	
 	$enableAds = "true";
 	
@@ -27,9 +28,9 @@
 <?php
 	include_once('password_of_the_day.php');
 	if ($enablePOD == true) {
-		$adminPass = randomPassword();
+		$adminPass = getPasswordOfTheDay();
 		if ($debug == true) {
-			debug_to_console("Password of the day: " .randomPassword());
+			debug_to_console("Password of the day: " .$adminPass);
 		}
 	}
 ?>
