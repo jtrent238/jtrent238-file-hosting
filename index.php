@@ -67,12 +67,19 @@
 									<label>Select image to upload:</label>
 
 									<input class="inputUpload w3-input w3-border" type="file" name="fileToUpload" id="fileToUpload">
-									</<br></br>
-									<div class="w3-container uploadAdvanced">
-										<label>Email: </label><input class="w3-input" name="email" id="email" type="text"/>
-									</div>
+									<!--</<br></br>
+									<!--<div class="w3-container uploadAdvanced">-->
+										<!--<label>Email: </label><input class="w3-input" name="email" id="email" type="text"/>
+										</br>-->
+										<!--<input type="checkbox" name="isTemp" class="w3-check" id="isTemp"/>&nbsp;<label>Temporary</label>-->
+										<!--<input type="checkbox" name="isPublic" class="w3-check" id="isPublic"/>&nbsp;<label>Public</label>-->
+										<!--<input type="checkbox" name="isToken" class="w3-check" id="isToken"/>&nbsp;<label>Token</label>-->
+									<!--</div>-->
+										<!--<div class="sectionTOS">
+											<input type="checkbox" name="agreeTOSTrue" class="w3-check" id="agreeTOSTrue"/> &nbsp;<label>I agree to the <a href="tos.php">Terms and Conditions</a></label>
+										</div>-->
 									</br>
-									<input class="inputSubmit w3-input w3-border w3-button w3-blue" id="buttonUpload" type="submit" value="Upload Image" name="submit">
+									<input class="inputSubmit w3-input w3-border w3-button w3-blue" id="buttonUpload" type="submit" value="Upload Image" name="submit" required="yes">
 								</form>
 								<?php
 									// Database stuff
@@ -124,6 +131,21 @@
 										echo "</center>";
 										echo "</br>";
 								?>
+								<div class="w3-container w3-center deletefiles">
+									<div class"w3-container">
+										<!--<p>Temporary files will be deleted in: 
+										<?php 
+											$x = time();
+											$y = strtotime('tomorrow 00:00:00');
+											$result = floor(($y - $x) / 60);
+											if ($result < 60) {
+												printf("Your limits rest in %d minutes", $result % 60);
+											} else if ($result >= 60) {
+												printf("%d hours %d minutes", floor($result / 60), $result % 60);
+											}
+										?></p>-->
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>

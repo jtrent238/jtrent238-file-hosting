@@ -84,6 +84,7 @@
 		<?php include_once 'menu.php'; ?> <!-- Adds a top navbar -->
 		<?php include_once 'protected.php'; ?>
 		
+
 		<?php
 		$fCount = shell_exec('find uploads -type f | wc -l');
 
