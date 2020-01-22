@@ -144,8 +144,44 @@
 												printf("%d hours %d minutes", floor($result / 60), $result % 60);
 											}
 										?></p>-->
+										<!-- hitwebcounter Code START -->
+										<a href="https://www.hitwebcounter.com" target="_blank">
+										<img src="https://hitwebcounter.com/counter/counter.php?page=7184885&style=0038&nbdigits=9&type=page&initCount=0" title="Free-Counter" Alt="hitwebcounter"   border="0" >
+										</a></br></br>     
 									</div>
 								</div>
+							</div>
+						</div>
+					</div>
+										<div class="w3-container w3-display-left ad_box_left">
+						<div class="w3-card w3-indigo adCard">
+							<div class="w3-container">
+								<script type="text/javascript">
+									atOptions = {
+										'key' : 'eff9f2f10fa3c04002c5418c0b189f7b',
+										'format' : 'iframe',
+										'height' : 250,
+										'width' : 300,
+										'params' : {}
+									};
+									document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.madcpms.com/eff9f2f10fa3c04002c5418c0b189f7b/invoke.js"></scr' + 'ipt>');
+								</script>
+							</div>
+						</div>
+					</div>
+					<div class="w3-container w3-display-right ad_box_right">
+						<div class="w3-card w3-indigo adCard">
+							<div class="w3-container">
+								<script type="text/javascript">
+									atOptions = {
+										'key' : 'eff9f2f10fa3c04002c5418c0b189f7b',
+										'format' : 'iframe',
+										'height' : 250,
+										'width' : 300,
+										'params' : {}
+									};
+									document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.madcpms.com/eff9f2f10fa3c04002c5418c0b189f7b/invoke.js"></scr' + 'ipt>');
+								</script>
 							</div>
 						</div>
 					</div>
