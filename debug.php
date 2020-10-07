@@ -10,7 +10,8 @@
 		echo '
 		<div class="w3-panel w3-red w3-display-top">
 		<h3>Warning!</h3>
-		<p>Debugging is enabled! private data may be displayed in clear text in the console of your browser. DO NOT enter any passwords or any sensitive data on this site while debuggin is enabled.</p>
+		<p>Debugging is enabled! private data may be displayed in clear text in the console of your browser. DO NOT enter any passwords or any sensitive data on this site while debugging is enabled.</p>
+		<p>This usally appears while the site is being worked on please be patient. This message will go away once work is done.
 		</div>';
 	}
 	

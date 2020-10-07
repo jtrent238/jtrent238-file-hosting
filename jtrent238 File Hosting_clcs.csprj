@@ -1,54 +1,50 @@
 
-<codestructure version="1.7.1">
+<codestructure version="1.5">
 <phptree>
-<treenode node="DB_DATABASE;PHP:PHP Word;C:\Users\jtren\git\jtrent238-file-hosting\config.php;f9;10;20;10;;;;vpos;;v;;a;;r&apos;stfh_images&apos;;;d-1,-1;;b0,0;;m0;;e">
+<treenode node="DB_DATABASE;PHP:PHP Word;C:\Users\Admin\git\jtrent238-file-hosting\config.php;f9;23;20;23;;;;vpos;;v;;a;;r&apos;stfh_images&apos;;;d-1,-1;;b0,0;;m0;;e">
 </treenode>
-<treenode node="DB_PASSWORD;PHP:PHP Word;C:\Users\jtren\git\jtrent238-file-hosting\config.php;f9;9;20;9;;;;vpos;;v;;a;;r&apos;MqBcErKqnQCVxh4A&apos;;;d-1,-1;;b0,0;;m0;;e">
+<treenode node="DB_PASSWORD;PHP:PHP Word;C:\Users\Admin\git\jtrent238-file-hosting\config.php;f9;22;20;22;;;;vpos;;v;;a;;r&apos;MqBcErKqnQCVxh4A&apos;;;d-1,-1;;b0,0;;m0;;e">
 </treenode>
-<treenode node="DB_SERVER;PHP:PHP Word;C:\Users\jtren\git\jtrent238-file-hosting\config.php;f9;7;18;7;;;;vpos;;v;;a;;r&apos;mysql-stfh.alwaysdata.net&apos;;;d-1,-1;;b0,0;;m0;;e">
+<treenode node="DB_SERVER;PHP:PHP Word;C:\Users\Admin\git\jtrent238-file-hosting\config.php;f9;20;18;20;;;;vpos;;v;;a;;r&apos;mysql-stfh.alwaysdata.net&apos;;;d-1,-1;;b0,0;;m0;;e">
 </treenode>
-<treenode node="DB_USERNAME;PHP:PHP Word;C:\Users\jtren\git\jtrent238-file-hosting\config.php;f9;8;20;8;;;;vpos;;v;;a;;r&apos;stfh_images&apos;;;d-1,-1;;b0,0;;m0;;e">
+<treenode node="DB_USERNAME;PHP:PHP Word;C:\Users\Admin\git\jtrent238-file-hosting\config.php;f9;21;20;21;;;;vpos;;v;;a;;r&apos;stfh_images&apos;;;d-1,-1;;b0,0;;m0;;e">
 </treenode>
-<treenode node="config.php;PHP:PHP Include;C:\Users\jtren\git\jtrent238-file-hosting\upload.php;f17;71;27;71;;C:\Users\jtren\git\jtrent238-file-hosting\login.php;f10;2;20;2;;C:\Users\jtren\git\jtrent238-file-hosting\index.php;f17;56;27;56;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+<treenode node="config.php;PHP:PHP Include;C:\Users\Admin\git\jtrent238-file-hosting\delete.php;f10;3;20;3;;C:\Users\Admin\git\jtrent238-file-hosting\password_of_the_day.php;f15;2;25;2;;C:\Users\Admin\git\jtrent238-file-hosting\protected.php;f15;2;25;2;;C:\Users\Admin\git\jtrent238-file-hosting\debug.php;f10;1;20;1;;C:\Users\Admin\git\jtrent238-file-hosting\theme.php;f15;1;25;1;;C:\Users\Admin\git\jtrent238-file-hosting\theme_styles.php;f15;1;25;1;;C:\Users\Admin\git\jtrent238-file-hosting\upload.php;f22;72;32;72;;C:\Users\Admin\git\jtrent238-file-hosting\login.php;f16;21;26;21;;C:\Users\Admin\git\jtrent238-file-hosting\manage.php;f22;86;32;86;;C:\Users\Admin\git\jtrent238-file-hosting\index.php;f22;59;32;59;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
 </treenode>
-<treenode node="debug.php;PHP:PHP Include;C:\Users\jtren\git\jtrent238-file-hosting\upload.php;f17;70;26;70;;C:\Users\jtren\git\jtrent238-file-hosting\login.php;f10;3;19;3;;C:\Users\jtren\git\jtrent238-file-hosting\index.php;f17;55;26;55;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+<treenode node="debug.php;PHP:PHP Include;C:\Users\Admin\git\jtrent238-file-hosting\delete.php;f10;2;19;2;;C:\Users\Admin\git\jtrent238-file-hosting\password_of_the_day.php;f15;1;24;1;;C:\Users\Admin\git\jtrent238-file-hosting\upload.php;f22;71;31;71;;C:\Users\Admin\git\jtrent238-file-hosting\manage.php;f22;85;31;85;;C:\Users\Admin\git\jtrent238-file-hosting\index.php;f22;58;31;58;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
 </treenode>
-<treenode node="footer.php;PHP:PHP Include;C:\Users\jtren\git\jtrent238-file-hosting\index.php;f18;160;28;160;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+<treenode node="footer.php;PHP:PHP Include;C:\Users\Admin\git\jtrent238-file-hosting\upload.php;f18;294;28;294;;C:\Users\Admin\git\jtrent238-file-hosting\login.php;f18;83;28;83;;C:\Users\Admin\git\jtrent238-file-hosting\manage.php;f18;156;28;156;;C:\Users\Admin\git\jtrent238-file-hosting\index.php;f18;141;28;141;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
 </treenode>
-<treenode node="menu.php;PHP:PHP Include;C:\Users\jtren\git\jtrent238-file-hosting\upload.php;f17;72;25;72;;C:\Users\jtren\git\jtrent238-file-hosting\header.php;f17;3;25;3;;C:\Users\jtren\git\jtrent238-file-hosting\index.php;f17;57;25;57;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+<treenode node="login.php;PHP:PHP Include;C:\Users\Admin\git\jtrent238-file-hosting\protected.php;f15;3;24;3;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
 </treenode>
-<treenode node="debug_to_console;PHP:Function Name;C:\Users\jtren\git\jtrent238-file-hosting\debug.php;f1;10;2;17;;;;vpos;;v;;a;;r;;d1,11;;b0,0;;m0;;edata;;p;;x">
+<treenode node="menu.php;PHP:PHP Include;C:\Users\Admin\git\jtrent238-file-hosting\header.php;f22;3;30;3;;C:\Users\Admin\git\jtrent238-file-hosting\upload.php;f22;73;30;73;;C:\Users\Admin\git\jtrent238-file-hosting\manage.php;f22;87;30;87;;C:\Users\Admin\git\jtrent238-file-hosting\index.php;f22;60;30;60;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="password_of_the_day.php;PHP:PHP Include;C:\Users\Admin\git\jtrent238-file-hosting\config.php;f15;27;38;27;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="popup_login.php;PHP:PHP Include;C:\Users\Admin\git\jtrent238-file-hosting\upload.php;f22;74;37;74;;C:\Users\Admin\git\jtrent238-file-hosting\login.php;f15;1;30;1;;C:\Users\Admin\git\jtrent238-file-hosting\index.php;f20;134;35;134;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="protected.php;PHP:PHP Include;C:\Users\Admin\git\jtrent238-file-hosting\manage.php;f22;88;35;88;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="theme.php;PHP:PHP Include;C:\Users\Admin\git\jtrent238-file-hosting\footer.php;f10;10;19;10;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="theme_styles.php;PHP:PHP Include;C:\Users\Admin\git\jtrent238-file-hosting\upload.php;f22;7;38;7;;C:\Users\Admin\git\jtrent238-file-hosting\login.php;f22;10;38;10;;C:\Users\Admin\git\jtrent238-file-hosting\manage.php;f22;7;38;7;;C:\Users\Admin\git\jtrent238-file-hosting\index.php;f22;6;38;6;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="debug_to_console;PHP:Function Name;C:\Users\Admin\git\jtrent238-file-hosting\debug.php;f1;16;2;23;;;;vpos;;v;;a;;r;;d1,17;;b0,0;;m0;;edata;;p">
+</treenode>
+<treenode node="randomPassword;PHP:Function Name;C:\Users\Admin\git\jtrent238-file-hosting\password_of_the_day.php;f1;3;2;15;;;;vpos;;v;;a;;r;;d1,4;;b0,0;;m0;;e">
 </treenode>
 </phptree>
 <jstree>
-<treenode node="displayLogin;JS:Function Name;C:\Users\jtren\git\jtrent238-file-hosting\index.php;f0;10;4;51;;;;vpos;;v;;a;;r;;d32,10;;b0,0;;m0;;emyArg;;p;;x">
-<treenode node="displayMessage;JS:Function Name;C:\Users\jtren\git\jtrent238-file-hosting\index.php;f0;42;6;48;;;;vpos;;v;;a;;r;;d31,42;;b0,0;;m0;;e">
-<treenode node="console;JS:JS Var Name;C:\Users\jtren\git\jtrent238-file-hosting\index.php;f7;46;14;46;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
-</treenode>
-<treenode node="debug;JS:JS Var Name;C:\Users\jtren\git\jtrent238-file-hosting\index.php;f10;45;15;45;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
-</treenode>
-<treenode node="document;JS:JS Var Name;C:\Users\jtren\git\jtrent238-file-hosting\index.php;f6;43;14;43;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+<treenode node="displayLogin;JS:Function Name;C:\Users\Admin\git\jtrent238-file-hosting\upload.php;f0;24;3;67;;C:\Users\Admin\git\jtrent238-file-hosting\manage.php;f0;38;3;81;;C:\Users\Admin\git\jtrent238-file-hosting\index.php;f0;11;3;54;;;;vpos;;v;;a;;r;;d2,12;;b0,0;;m0;;emyArg;;p">
+<treenode node="displayMessage;JS:Function Name;C:\Users\Admin\git\jtrent238-file-hosting\menu.php;f0;36;5;43;;C:\Users\Admin\git\jtrent238-file-hosting\login.php;f0;42;5;49;;C:\Users\Admin\git\jtrent238-file-hosting\index.php;f0;44;5;51;;C:\Users\Admin\git\jtrent238-file-hosting\upload.php;f0;57;5;64;;C:\Users\Admin\git\jtrent238-file-hosting\index.php;f0;44;5;51;;C:\Users\Admin\git\jtrent238-file-hosting\index.php;f0;44;5;51;;C:\Users\Admin\git\jtrent238-file-hosting\manage.php;f0;71;5;78;;C:\Users\Admin\git\jtrent238-file-hosting\index.php;f0;44;5;51;;;;vpos;;v;;a;;r;;d4,45;;b0,0;;m0;;e">
 </treenode>
 </treenode>
-<treenode node="ClassName;JS:JS Var Name;C:\Users\jtren\git\jtrent238-file-hosting\index.php;f8;15;17;15;;;;vposString;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+<treenode node="goBack;JS:Function Name;C:\Users\Admin\git\jtrent238-file-hosting\upload.php;f0;18;3;21;;;;vpos;;v;;a;;r;;d2,19;;b0,0;;m0;;e">
 </treenode>
-<treenode node="btn;JS:JS Var Name;C:\Users\jtren\git\jtrent238-file-hosting\index.php;f8;21;11;21;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+<treenode node="manageFile;JS:Function Name;C:\Users\Admin\git\jtrent238-file-hosting\manage.php;f0;12;4;35;;;;vpos;;v;;a;;r;;d3,13;;b0,0;;m0;;eaction;;pfileName;;p">
+<treenode node="error;JS:Function Name;C:\Users\Admin\git\jtrent238-file-hosting\manage.php;f7;27;8;30;;;;vpos;;v;;a;;r;;d26,27;;b0,0;;m0;;e">
 </treenode>
-<treenode node="console;JS:JS Var Name;C:\Users\jtren\git\jtrent238-file-hosting\index.php;f6;35;13;35;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
-</treenode>
-<treenode node="debug;JS:JS Var Name;C:\Users\jtren\git\jtrent238-file-hosting\index.php;f4;11;9;11;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
-</treenode>
-<treenode node="elementID;JS:JS Var Name;C:\Users\jtren\git\jtrent238-file-hosting\index.php;f8;14;17;14;;;;vposString;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
-</treenode>
-<treenode node="link;JS:JS Var Name;C:\Users\jtren\git\jtrent238-file-hosting\index.php;f8;22;12;22;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
-</treenode>
-<treenode node="model;JS:JS Var Name;C:\Users\jtren\git\jtrent238-file-hosting\index.php;f8;18;13;18;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
-</treenode>
-<treenode node="modelID;JS:JS Var Name;C:\Users\jtren\git\jtrent238-file-hosting\index.php;f8;13;15;13;;;;vposString;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
-</treenode>
-<treenode node="myArg;JS:JS Var Name;C:\Users\jtren\git\jtrent238-file-hosting\index.php;f25;10;30;10;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
-</treenode>
-<treenode node="span;JS:JS Var Name;C:\Users\jtren\git\jtrent238-file-hosting\index.php;f8;25;12;25;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+<treenode node="success;JS:Function Name;C:\Users\Admin\git\jtrent238-file-hosting\manage.php;f7;22;8;26;;;;vpos;;v;;a;;r;;d36,22;;b0,0;;m0;;eresponse;;p">
 </treenode>
 </treenode>
 </jstree>

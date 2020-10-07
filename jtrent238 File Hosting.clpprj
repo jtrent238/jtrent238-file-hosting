@@ -1,24 +1,27 @@
 <?xml version='1.0' encoding='utf-8'?>
-<project name="C:\Users\jtren\git\jtrent238-file-hosting\jtrent238 File Hosting.clpprj">
+<project name="C:\Users\Admin\git\jtrent238-file-hosting\jtrent238 File Hosting.clpprj">
  <settings>
   <PM_URL><![CDATA[http://stfh.alwaysdata.net/]]></PM_URL>
   <PM_HOME_URL><![CDATA[http://stfh.alwaysdata.net/]]></PM_HOME_URL>
   <PM_LIBS><![CDATA[]]></PM_LIBS>
   <PM_FTP_CONNECTION><![CDATA[ftp-stfh.alwaysdata.net]]></PM_FTP_CONNECTION>
   <PM_FTP_DIR><![CDATA[/www]]></PM_FTP_DIR>
-  <PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:1]]></PM_FTP_UPLOAD_ON_SAVE>
+  <PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE>
  </settings>
  <removed value=";C:\Users\Admin\git\jtrent238-file-hosting\phpinfo.php;"/>
  <added value=""/>
  <lastopfiles>
-  <file name="C:\Users\jtren\git\jtrent238-file-hosting\jtrent238 File Hosting.clpprj"/>
-  <file name="C:\Users\jtren\git\jtrent238-file-hosting\index.php"/>
+  <file name="C:\Users\Admin\git\jtrent238-file-hosting\config.php"/>
+  <file name="C:\Users\Admin\git\jtrent238-file-hosting\theme.php"/>
+  <file name="C:\Users\Admin\git\jtrent238-file-hosting\manage.php"/>
+  <file name="C:\Users\Admin\git\jtrent238-file-hosting\index.php"/>
+  <file name="C:\Users\Admin\git\jtrent238-file-hosting\theme_styles.php"/>
   <lastactivefile name=""/>
  </lastopfiles>
  <errors version="1.3">
-  <errfile name="C:\Users\jtren\git\jtrent238-file-hosting\index.php">
-   <error val="14;8;50;8;2002;1;"/>
-   <error val="9;8;14;8;2002;1;"/>
+  <errfile name="C:\Users\Admin\git\jtrent238-file-hosting\index.php">
+   <error val="14;9;50;9;2002;1;"/>
+   <error val="9;9;14;9;2002;1;"/>
   </errfile>
  </errors>
  <cakedata/>
@@ -30,17 +33,28 @@
  <todoblock/>
  <dbgurls/>
  <filescache>
-  <file crc="1574289355711" name="C:\Users\jtren\git\jtrent238-file-hosting\assets\css\upload.css"/>
-  <file crc="1574564934907" name="C:\Users\jtren\git\jtrent238-file-hosting\assets\css\main.css"/>
-  <file crc="1574564935142" name="C:\Users\jtren\git\jtrent238-file-hosting\upload.php"/>
-  <file crc="1574564935140" name="C:\Users\jtren\git\jtrent238-file-hosting\sidebar.php"/>
-  <file crc="1574564935138" name="C:\Users\jtren\git\jtrent238-file-hosting\menu.php"/>
-  <file crc="1574564935108" name="C:\Users\jtren\git\jtrent238-file-hosting\login.php"/>
-  <file crc="1574564935021" name="C:\Users\jtren\git\jtrent238-file-hosting\index.php"/>
-  <file crc="1574564935019" name="C:\Users\jtren\git\jtrent238-file-hosting\header.php"/>
-  <file crc="1574564934947" name="C:\Users\jtren\git\jtrent238-file-hosting\footer.php"/>
-  <file crc="1574564934945" name="C:\Users\jtren\git\jtrent238-file-hosting\debug.php"/>
-  <file crc="1574290227580" name="C:\Users\jtren\git\jtrent238-file-hosting\database.sql"/>
-  <file crc="1574564934943" name="C:\Users\jtren\git\jtrent238-file-hosting\config.php"/>
+  <file name="C:\Users\Admin\git\jtrent238-file-hosting\assets\css\theme\default.css" crc="1575311214351"/>
+  <file name="C:\Users\Admin\git\jtrent238-file-hosting\assets\css\theme\dark.css" crc="1575311220986"/>
+  <file name="C:\Users\Admin\git\jtrent238-file-hosting\assets\css\theme\beach.css" crc="1575313673822"/>
+  <file name="C:\Users\Admin\git\jtrent238-file-hosting\assets\css\upload.css" crc="1574262509442"/>
+  <file name="C:\Users\Admin\git\jtrent238-file-hosting\assets\css\manage.css" crc="1575290870896"/>
+  <file name="C:\Users\Admin\git\jtrent238-file-hosting\assets\css\main.css" crc="1575310794632"/>
+  <file name="C:\Users\Admin\git\jtrent238-file-hosting\upload.php" crc="1575314117217"/>
+  <file name="C:\Users\Admin\git\jtrent238-file-hosting\theme_styles.php" crc="1575315261247"/>
+  <file name="C:\Users\Admin\git\jtrent238-file-hosting\theme.php" crc="1575315152971"/>
+  <file name="C:\Users\Admin\git\jtrent238-file-hosting\sidebar.php" crc="1574429598016"/>
+  <file name="C:\Users\Admin\git\jtrent238-file-hosting\protected.php" crc="1575312311629"/>
+  <file name="C:\Users\Admin\git\jtrent238-file-hosting\popup_login.php" crc="1575314303412"/>
+  <file name="C:\Users\Admin\git\jtrent238-file-hosting\password_of_the_day.php" crc="1575307385709"/>
+  <file name="C:\Users\Admin\git\jtrent238-file-hosting\menu.php" crc="1575310184351"/>
+  <file name="C:\Users\Admin\git\jtrent238-file-hosting\manage.php" crc="1575314518366"/>
+  <file name="C:\Users\Admin\git\jtrent238-file-hosting\login.php" crc="1575314094353"/>
+  <file name="C:\Users\Admin\git\jtrent238-file-hosting\index.php" crc="1575315348900"/>
+  <file name="C:\Users\Admin\git\jtrent238-file-hosting\header.php" crc="1575309791619"/>
+  <file name="C:\Users\Admin\git\jtrent238-file-hosting\footer.php" crc="1575313103693"/>
+  <file name="C:\Users\Admin\git\jtrent238-file-hosting\delete.php" crc="1575298118637"/>
+  <file name="C:\Users\Admin\git\jtrent238-file-hosting\debug.php" crc="1575307448866"/>
+  <file name="C:\Users\Admin\git\jtrent238-file-hosting\database.sql" crc="1574302303910"/>
+  <file name="C:\Users\Admin\git\jtrent238-file-hosting\config.php" crc="1575315114276"/>
  </filescache>
 </project>

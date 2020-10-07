@@ -10,6 +10,9 @@
 		case 'beach':
 			echo('<link rel="stylesheet" href="assets/css/theme/beach.css">');
 			break;
+		case 'sunflower':
+			echo('<link rel="stylesheet" href="assets/css/theme/sunflower.css">');
+			break;
 		default:
 			echo('<link rel="stylesheet" href="assets/css/theme/default.css">');
 			break;

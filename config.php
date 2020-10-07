@@ -1,6 +1,9 @@
 
 <?php
-	$theme = 'dark'; // Sets the websites theme valid themes are "default, dark, beach"
+	
+	$myurl = 'http://stfh.jtrent238.tk'; // Sets the defauld site url Default is stfh.jtrent238.tk
+	
+	$theme = 'sunflower'; // Sets the websites theme valid themes are "default, dark, beach, sunflower"
 	
 	$cfg_debug = false; // Enable Debugging ** Warning private data dumped to console ***
 
@@ -19,10 +22,10 @@
 	$dbname = "stfh_images";
 	$tablename = "Files";
 	
-	define('DB_SERVER', 'mysql-stfh.alwaysdata.net');
-	define('DB_USERNAME', 'stfh_images');
-	define('DB_PASSWORD', 'MqBcErKqnQCVxh4A');
-	define('DB_DATABASE', 'stfh_images');
+	define('DB_SERVER', $servername);
+	define('DB_USERNAME', $username);
+	define('DB_PASSWORD', $password);
+	define('DB_DATABASE', $dbname);
 ?>
 
 <?php
@@ -33,4 +36,5 @@
 			debug_to_console("Password of the day: " .$adminPass);
 		}
 	}
+	//include_once('ads.php');
 ?>
