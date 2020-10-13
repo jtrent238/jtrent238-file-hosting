@@ -5,7 +5,7 @@
 	?>
 	<div>
 		<div class="w3-panel w3-green w3-display-top w3-margin-16">
-			<p>Hey there! This site could use your help. If you know HTML, PHP, CSS, JavaScript head over to the Github <a href="https://github.com/jtrent238/jtrent238-file-hosting">here</a> to get started.</p>
+			<p>Hey there! This site could use your help. If you know HTML, PHP, CSS, or JavaScript head over to the Github <a href="https://github.com/jtrent238/jtrent238-file-hosting">here</a> to get started.</p>
 		</div>
 	</div>
 	<div class="w3-bar w3-blue" id="navbar">
